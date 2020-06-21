@@ -1,0 +1,209 @@
+body {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+/*navbar ====*/
+
+#main_navbar{
+  width: 100%;
+  margin: 0;
+  background-color: #FFFFFF;
+  border-bottom: 3px solid #84817c;
+}
+#main_navbar.navbar{
+  padding: 10px;
+}
+#main_navbar .top-navbar {
+    width: 100%;
+    top: 0;
+    width: 100%;
+    margin: 0;
+    padding: 20px;
+    list-style: none;
+}
+#main_navbar .nav_logo {
+padding: 0px;
+margin: 0px;
+position: absolute;
+top:10px;
+  z-index: 11;
+}
+#main_navbar .nav_logo img{
+  height: 80px;
+
+}
+#main_navbar .top-navbar li{
+  display: inline-block;
+  float: right;
+  padding-left: 20px;
+}
+#main_navbar .top-navbar li a{
+  color: #696b6f;
+  padding: 10px 15px 10px 30px;
+}
+#main_navbar .top-navbar li a:hover{
+    color: #F8BE13;
+    text-decoration: none;
+}
+.flex-center{
+  background-color: #F8BE13;
+  height: 450px;
+  z-index: 0;
+}
+.flex-center .content .title span{
+  color: #ffffff;
+  font-size: 50px;
+}
+
+
+
+.card-holder {
+  margin:0;
+}
+
+.card {
+  font-family: -apple-system, BlinkMacSystemFont, 'Open Sans', sans-serif;
+  font-size: 3em;
+  font-weight: 800;
+  height:600px;
+  width: 64em;
+  padding: 0.5em 1em;
+  display: table-cell;
+  vertical-align: middle;
+  letter-spacing: -2px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+
+.bg-aurora {
+    color: #fff;
+    background: -webkit-linear-gradient(-70deg, #fa7c30 30%, rgba(0, 0, 0, 0) 50%), url("/images/learning.png");
+    background: -o-linear-gradient(-70deg, #fa7c30 30%, rgba(0, 0, 0, 0) 50%), url("/images/learning.png");
+    background: -moz-linear-gradient(-70deg, #fa7c30 30%, rgba(0, 0, 0, 0) 50%),url("/images/learning.png");
+    background: linear-gradient(-70deg, #fa7c30 30%, rgba(0, 0, 0, 0) 50%), url("/images/learning.png");
+    background-size: cover;
+  background-position: 50% 21%;
+  text-align: right;
+}
+
+.card  button{
+  opacity: 0.5;
+}
+.card  button:hover{
+  opacity: 1;
+}
+#main-wrapper .container .info{
+  margin: 25px;
+  padding: 25px;
+  text-align: center;
+}
+#main-wrapper .container .info p{
+  padding-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+width: 60%;
+}
+#main-wrapper .container .info .flex{
+  display: flex;
+}
+#teacher-box{
+  background:linear-gradient(rgba(255, 117, 35, 0.45),rgba(255, 117, 35, 0.45)),url("/images/teacher-box.jpg");
+}
+#student-box{
+    background:linear-gradient(rgba(255, 117, 35, 0.45),rgba(255, 117, 35, 0.45)),url("/images/student-box.png");
+}
+#main-wrapper .container .info .info-box{
+  width: 450px;
+  margin: 20px;
+  display: inline-block;
+  height: 300px;
+}
+#teacher-box h2{
+  margin-top: 100px;
+  color: #ffffff;
+}
+#teacher-box p, #teacher-box button {
+  margin: 30px;
+  display: none;
+  color: #ffffff;
+}
+#teacher-box:hover{
+  background:linear-gradient(rgba(26, 171, 239, 0.45),rgba(26, 171, 239, 0.45)),url("/images/teacher-box.jpg");
+}
+#teacher-box:hover p, #teacher-box:hover button{
+  display: inline-block;
+  margin-bottom: 10px;
+}
+#teacher-box:hover h2{
+  margin-top: 20px;
+}
+
+
+#student-box h2{
+  margin-top: 100px;
+  color: #ffffff;
+}
+#student-box p, #student-box button {
+  margin: 30px;
+  display: none;
+  color: #ffffff;
+}
+#student-box:hover{
+  background:linear-gradient(rgba(26, 171, 239, 0.45),rgba(26, 171, 239, 0.45)),url("/images/student-box.png");
+}
+#student-box:hover p, #student-box:hover button{
+  display: inline-block;
+  margin-bottom: 10px;
+}
+#student-box:hover h2{
+  margin-top: 20px;
+}
+.cources{
+  background: #080417;
+  height: auto;
+  padding-bottom: 50px;
+}
+.cources h1{
+  color: #ffffff;
+  text-align: center;
+  padding: 50px;
+  padding-bottom: 20px;
+  border-bottom: 3px solid red;
+}
+.course-box{
+  height: 200px;
+  width: 360px;
+  margin: 10px;
+  margin-top: 20px;
+  color: #ffffff;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #ffffff;
+text-align: center;
+}
+.course-box h4{
+  text-align: center;
+  padding-top: 30px;
+  margin-top: 30px;
+}
+.course-box button{
+    position:relative;
+    margin-top: 20px;
+}
+.footer{
+  background-color: #D47C34;
+  padding: 50px;
+}
+.footer .footer_logo{
+  background-color: #ffffff;
+  width: 260px;
+  padding: 20px;
+}
+.footer .contact h1{
+  border-bottom: 3px solid red;
+  color: #ffffff;
+}
+.footer .contact span{
+  color: #ffffff;
+}
