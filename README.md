@@ -3,6 +3,7 @@ TOOLS USED DURING THE DEVELOPMENT OF THIS PROJECT.
 1. PHP LARAVEL
 2. DATABASE PHPMYSQL
 3. XAMPP SERVER
+4. ATOM TEXT EDITOR (OPTIONAL)
 
 Please make sure that these tools are installed in your system to initiate the first step towards opening the project.
 After you take care of these things please copy the file that you download from GITHUB inside XAMPP file
